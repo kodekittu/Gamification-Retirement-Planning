@@ -1,6 +1,6 @@
 
 
-## Standard Chartered Bank GBS Diversity Hackathon 
+# Standard Chartered Bank GBS Diversity Hackathon 
 
 # TEAM 2 Members
     Kalpana
