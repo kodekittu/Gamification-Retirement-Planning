@@ -1,23 +1,23 @@
-# SPGISummer2018-FlaskTutorial
-[SPGI 2018 Summer] - Project: A Tutorial to Web Applications Using Python Flask and How to Deploy Them to the Cloud
-- A tutorial where we go use Python and Flask to create a simple web application and deploy them to the cloud
 
-# Summary
-- During my internship, I was tasked with learning about Containers and how to implement them using Docker
 
-- Throughout the tutorials for Docker, I noticed that they always used Flask to create a web application and use it to run a container. In 
-order to understand these tutorials better, I decided to learn Flask
+## Standard Chartered Bank GBS Diversity Hackathon 
 
-- I also had to deploy it to the cloud. I used Google App Engine for that
+# TEAM 2 Members
+    Kalpana
+    Archi Mukherjee
+    Shashi
+    Vaishnavi Borde
 
-- After learning how to use Flask and use Google App Engine to deploy them to the cloud. I wanted to teach others who might get stuck just like
-I did.
+# PROBLEM - Gamification Retirement Planning
+
+![WhatsApp Image 2021-03-14 at 8 19 26 PM](https://user-images.githubusercontent.com/43681972/111073959-2f685d00-849e-11eb-9e44-8ce41c40de6b.jpeg)
+
+![WhatsApp Image 2021-03-14 at 8 20 19 PM](https://user-images.githubusercontent.com/43681972/111073962-30998a00-849e-11eb-8169-e3f8e50611ff.jpeg)
 
 # Technology
-- HTML
-- CSS
-- Python
-- Flask
-- Google App Engine (Standard Environment)
-- Git
-
+    HTML
+    CSS
+    Python
+    Flask
+    Google App Engine (Standard Environment)
+    Git
