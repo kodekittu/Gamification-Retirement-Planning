@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(pic2.jpg);
+    background: url(pic3.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -9,7 +9,7 @@ body{
 
 .loginbox{
     width: 320px;
-    height: 500px;
+    height: 420px;
     background: #000;
     color: #fff;
     top: 50%;
@@ -64,7 +64,7 @@ h1{
     height: 40px;
     background: #fb2525;
     color: #fff;
-    font-size: 18px;
+    font-size: 30px;
     border-radius: 20px;
 }
 .loginbox input[type="submit"]:hover
@@ -84,68 +84,3 @@ h1{
 {
     color: #ffc107;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
