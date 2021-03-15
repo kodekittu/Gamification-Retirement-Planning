@@ -83,7 +83,31 @@ h3{color:red;}
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required><br><br>
     
-    <label for="age"><b>Age</b></label>
+ <label for="age"><b>Age:</b></label>
+<input id="demo" type="text">
+<button type="button" onclick="myFunction()">ok</button>
+<p id="p01"></p>
+
+<script>
+function myFunction() {
+  var message, x;
+  message = document.getElementById("p01");
+  message.innerHTML = "";
+  x = document.getElementById("demo").value;
+  try { 
+    if(x == "")  throw "You need to enter a value";
+    if(isNaN(x)) throw "not a number";
+    x = Number(x);
+    if(x < 21)  throw "Check your age";
+    if(x > 65)   throw "Check your age";
+  }
+  catch(err) {
+    message.innerHTML =  err ;
+  }
+}
+
+</script>
+
     <input type="number" placeholder="Enter Your Age" name="age" required><br><br>
     
     <label for="ctc"><b>CTC</b></label>
