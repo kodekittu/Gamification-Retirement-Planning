@@ -41,8 +41,8 @@ button:hover {
 }
 
 img.avatar {
-  width: 40%;
-  border-radius: 50%;
+  width: 15%;
+  border-radius: 20%;
 }
 
 .container {
@@ -55,7 +55,7 @@ span.psw {
 }
 
 /* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 200px) {
   span.psw {
      display: block;
      float: none;
@@ -83,9 +83,29 @@ h3{color:red;}
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required><br><br>
     
-    <label for="age"><b>Age</b></label>
-    <input type="number" placeholder="Enter Your Age" name="age" required><br><br>
-    
+    <label for="age"><b>Age:</b></label>
+<input id="demo" type="text">
+<button type="button" onclick="myFunction()">Check your Age</button>
+<p id="p01"></p>
+
+<script>
+function myFunction() {
+  var message, x;
+  message = document.getElementById("p01");
+  message.innerHTML = "";
+  x = document.getElementById("demo").value;
+  try { 
+    if(x == "")  throw "empty";
+    if(isNaN(x)) throw "not a number";
+    x = Number(x);
+    if(x < 21)  throw "Age should be between 20 and 65";
+    if(x > 65)   throw "Age should be between 20 and 65";
+  }
+  catch(err) {
+    message.innerHTML =  err ;
+  }
+}
+</script>
     <label for="ctc"><b>CTC</b></label>
     <input type="number" placeholder="Enter Your Yearly Income" name="ctc" required><br><br>
     
